@@ -1,11 +1,11 @@
-About finnhub-python
-====================
+About finnhub-python-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/finnhub-python-feedstock/blob/main/LICENSE.txt)
 
 Home: https://finnhub.io/docs/api
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/finnhub-python-feedstock/blob/main/LICENSE.txt)
 
 Summary: Finnhub API
 
