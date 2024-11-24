@@ -1,13 +1,13 @@
 {% set name = "finnhub-python" %}
-{% set version = "2.4.18" %}
+{% set version = "2.4.22" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/finnhub-python-{{ version }}.tar.gz
-  sha256: 46d932508f4753be207de73cce81c43070504fc68a2e2f6cb2a25c9cafa7cef4
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: deaceb7c56af8719b84aa714818dc95ffd272d362eb73e83d2dc8d667d386737
 
 build:
   noarch: python
